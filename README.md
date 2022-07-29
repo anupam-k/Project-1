@@ -1,5 +1,5 @@
 # _Project_ 1
-<img src="https://img.shields.io/badge/Project%201-Portfolio-green">&nbsp;<img src="https://img.shields.io/badge/Used-HTML5-orange">&nbsp;<img src="https://img.shields.io/badge/Used-CSS3-blue">
+<img src="https://img.shields.io/badge/Project%201-Portfolio-brightgreen">&nbsp;<img src="https://img.shields.io/badge/Used-HTML5-orange">&nbsp;<img src="https://img.shields.io/badge/Used-CSS3-blue">
 
 ![Screenshot (593)](https://user-images.githubusercontent.com/69143883/181195935-cd477898-341d-4baa-877a-d238bcfb38dd.png)
 
