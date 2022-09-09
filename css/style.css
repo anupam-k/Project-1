@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Orbitron', sans-serif;
+    overflow-y: hidden;
+}
+
+.container{
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+/*---------------------Navbar Section------------------*/
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: center;
+}
+
+.navbar-container div:first-child img{
+    width: 120px;
+}
+
+.navbar-container .list{
+    display: flex;
+    list-style: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size:20px;
+    font-weight:500;
+}
+
+.navbar-container .list .list-item{
+    cursor: pointer;
+}
+
+.navbar-container .list .list-item:not(:last-child){
+    margin-right: 40px;
+}
+
+.navbar-container .list .list-item:not(:first-child){
+    font-size:18px;
+}
+
+.navbar-container .list .list-item:nth-child(1){
+    font-weight:800;
+}
+
+.navbar-container .list .list-item:nth-child(1)::after{
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 80%;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.navbar-container .button-group {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar-container .nav-button {
+    padding: 7px 40px;
+    border: 3px solid #000000;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    cursor: text;
+}
+
+.navbar-container .search-icon{
+    padding-top: 8px;
+}
+
+/*------------------------- HeroBanner section ------------------------ */
+.hero-container{
+    display: flex;
+    position: relative;
+    height: 80vh;
+}
+
+.hero-container .square > img {
+    position: relative;
+    width: 320px;
+    top: 225px;
+    left: 146px;
+}
+
+.hero-container .star {
+    position: absolute;
+    right: 0;
+}
+
+.hero-container .star .img{
+    width: 40px;
+}
+
+.hero-container .star:nth-child(2){
+    position: absolute;
+    right: 640px;
+    top: 490px;
+}
+
+.hero-container .star:nth-child(2) img{
+    width: 30px;
+}
+
+.hero-container .globe{
+    position: absolute;
+    left: 680px;
+    top: -20px;
+}
+
+.hero-container .globe img {
+    width: 50px;
+}
+.hero-container span + div {
+    width: 220px;
+}
+.hero-container .globe + div > img {
+    position: absolute;
+    width: 390px;
+    left: 12px;
+    top: 14px;
+}
+.hero-container-right {
+    width: 890px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.hero-container-right .hero-heading {
+    font-size: 3.2rem;
+    margin-bottom: 50px;
+}
+.hero-container-right .hero-description {
+    color: #8a8989;
+    font-size: 15px;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.hero-container-right .button-email {
+    font-family: "Orbitron";
+    padding: 5px 30px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.hero-container-right .button-join {
+    font-family: "Orbitron";
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-bottom: 110px;
+}
+.contact-heading {
+    text-align: center;
+    font-family: "Poppins";
+    color: #605e5e;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.icons > span > img {
+    width: 32px;
+    cursor: pointer;
+}
+.icons > span:not(:last-child) {
+    margin-right: 10px;
+}
+
