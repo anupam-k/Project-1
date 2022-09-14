@@ -15,5 +15,5 @@
     
 ### _Time Taken to make this Project_ - 2 Days
 
-### _Live Hosted Link_ : [Portfolio - Project 1](https://live-class-assignment-01.netlify.app/)
+### _Live Hosted Link🌐🚀_ : _[Portfolio - Project 1](https://live-class-assignment-01.netlify.app/)_
 
